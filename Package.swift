@@ -17,9 +17,11 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "EchoStorage",
-            dependencies: ["WCDB"]),
-        .binaryTarget(name: "WCDB",
-                      path: "Frameworks/WCDB.xcframework"),
+            dependencies: ["WCDBSwift", "sqlcipher"]),
+        .binaryTarget(name: "WCDBSwift",
+                      path: "Frameworks/WCDBSwift.xcframework"),
+        .binaryTarget(name: "sqlcipher",
+                      path: "Frameworks/sqlcipher.xcframework"),
         .testTarget(
             name: "EchoStorageTests",
             dependencies: ["EchoStorage"]),

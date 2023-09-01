@@ -7,8 +7,8 @@
 //
 
 import UIKit
+import WCDBSwift
 import EchoStorage
-import WCDB
 
 class ViewController: UIViewController {
     override func viewDidLoad() {

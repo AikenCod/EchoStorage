@@ -14,7 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		FB4A20AC2AA1DE92007489CB /* Pods_EchoStorage_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B47E8507DC8479C58501BEF2 /* Pods_EchoStorage_Example.framework */; };
+		FB4A20BD2AA1FA71007489CB /* Pods_EchoStorage_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B47E8507DC8479C58501BEF2 /* Pods_EchoStorage_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +47,7 @@
 		B12416A146917F8DB43E3F04 /* Pods-EchoStorage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EchoStorage_Example.debug.xcconfig"; path = "Target Support Files/Pods-EchoStorage_Example/Pods-EchoStorage_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B47E8507DC8479C58501BEF2 /* Pods_EchoStorage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EchoStorage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9293BF9CD785E11AD30A1DD /* Pods-EchoStorage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EchoStorage_Example.release.xcconfig"; path = "Target Support Files/Pods-EchoStorage_Example/Pods-EchoStorage_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FB4A20B32AA1E49D007489CB /* EchoStorage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = EchoStorage; path = ..; sourceTree = "<group>"; };
+		FB4A20C12AA1FB10007489CB /* EchoStorage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = EchoStorage; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB4A20AC2AA1DE92007489CB /* Pods_EchoStorage_Example.framework in Frameworks */,
+				FB4A20BD2AA1FA71007489CB /* Pods_EchoStorage_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				FB4A20B22AA1E49D007489CB /* Packages */,
+				FB4A20C02AA1FB10007489CB /* Packages */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for EchoStorage */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -161,10 +161,10 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		FB4A20B22AA1E49D007489CB /* Packages */ = {
+		FB4A20C02AA1FB10007489CB /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				FB4A20B32AA1E49D007489CB /* EchoStorage */,
+				FB4A20C12AA1FB10007489CB /* EchoStorage */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -221,10 +221,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = V7L2D6685G;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = V7L2D6685G;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -469,11 +471,12 @@
 			baseConfigurationReference = B12416A146917F8DB43E3F04 /* Pods-EchoStorage_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V7L2D6685G;
 				INFOPLIST_FILE = EchoStorage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soundVelly.echoooLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -485,11 +488,12 @@
 			baseConfigurationReference = F9293BF9CD785E11AD30A1DD /* Pods-EchoStorage_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V7L2D6685G;
 				INFOPLIST_FILE = EchoStorage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soundVelly.echoooLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -500,6 +504,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9659FD7638B98264B2583CB4 /* Pods-EchoStorage_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = V7L2D6685G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -510,7 +515,7 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soundVelly.echoooLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -522,13 +527,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 938FE9256973C3CF2C775C5D /* Pods-EchoStorage_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = V7L2D6685G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soundVelly.echoooLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EchoStorage'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of EchoStorage.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'Sources/**/*'
-  s.vendored_frameworks = 'Frameworks/WCDB.xcframework'
+  s.vendored_frameworks = 'Frameworks/WCDBSwift.xcframework', 'Frameworks/sqlcipher.xcframework'
   # s.dependency 'WCDB'
   s.swift_version = '5.0'
   # s.resource_bundles = {
