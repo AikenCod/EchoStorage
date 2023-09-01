@@ -28,10 +28,12 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/AikenCod/EchoStorage.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
-  s.source_files = 'EchoStorage/Classes/**/*'
-  
+  s.source_files = 'Sources/**/*'
+  s.vendored_frameworks = 'Frameworks/WCDB.xcframework'
+  # s.dependency 'WCDB'
+  s.swift_version = '5.0'
   # s.resource_bundles = {
   #   'EchoStorage' => ['EchoStorage/Assets/*.png']
   # }
@@ -40,3 +42,4 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
+
